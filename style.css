@@ -93,6 +93,10 @@ hr{
 }
 .partner{
     padding: 10px 40px;
+    transition: transform 0.4s;
+}
+.partner:hover{
+    transform: scale(1.5);
 }
 .products-heading{
     text-align: center;
@@ -104,7 +108,7 @@ hr{
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-column-gap: 80px;
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
     padding: 0 250px;
    
 }
@@ -114,6 +118,11 @@ hr{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     box-sizing: border-box;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.product:hover{
+    transform: scale(1.1);
 }
 .product img{
     border-radius: 20px;
@@ -178,18 +187,25 @@ footer{
 footer a{
     text-decoration: none;
     color: white;
-    padding-right: 10px;
-    font-size: 25px;
+    padding-right: 15px;
+    font-size: 20px;
+    transition: transform 0.5s;
 }
+
 footer a:hover .fa-facebook{
     color: hsl(220, 86%, 46%);
+    transform: scale(1.4);
 }
 footer a:hover .fa-instagram{
     color: #d62976;
+    transform: scale(1.4);
 }
 footer a:hover .fa-twitter{
     color: #1DA1F2;
+    transform: scale(1.4);
 }
 footer a:hover .fa-youtube{
     color: #FF0000;
+    transform: scale(1.4);
 }
+
