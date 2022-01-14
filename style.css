@@ -26,6 +26,9 @@ nav a{
     font-weight: 600;
     margin-right: 40px;
 }
+nav a:hover{
+    color: #E21717;
+}
 .company-name a{
     font-size: 26px;
     font-weight: 600;
@@ -33,6 +36,9 @@ nav a{
 }
 .navbar{
     padding-right: 50px;
+}
+section{
+    margin-bottom: 100px;
 }
 .top-container{
     display: flex;
@@ -67,7 +73,11 @@ nav a{
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.link-button:hover{
+    background-color: #1DA1F2;
 }
 .partner-list{
     margin-top: 50px;
@@ -77,7 +87,109 @@ hr{
 }
 .partners{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+
+}
+.partner{
+    padding: 10px 40px;
+}
+.products-heading{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.products{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 80px;
+    grid-row-gap: 20px;
+    padding: 0 250px;
+   
+}
+
+.product{   
+    background: #FFFFFF;;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.product img{
+    border-radius: 20px;
+    width: 80%;
+    height: 40%;
+    padding: 15px 15px 0px 30px;
+}
+.product .detail {
+    padding-left: 20px;
+    margin: 0; 
+}
+.product .detail h2{
+    color: #18191F;
+    font-size: 24px;
+    font-weight: 500;
+}  
+.product .detail h3{
+    color: #000000DE;
+    font-size: 24px;
+    font-weight: 400;
+}
+.ratings{
+    color: orange;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.product .detail p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #787885;
+}
+.half-width{
+    width: 50%;
+    padding:0 60px;
+}
+.last-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-container img{
+    width: 80%;
+}
+.last-container h1{ 
+    font-size: 30px;
+    font-weight: 700;
+    color:#0A0826;
+}
+.last-container p{
+    font-size: 16px;
+    font-weight: 700px;
+    color: #6C6C6C;
+}
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+   
+   
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-size: 25px;
+}
+footer a:hover .fa-facebook{
+    color: hsl(220, 86%, 46%);
+}
+footer a:hover .fa-instagram{
+    color: #d62976;
+}
+footer a:hover .fa-twitter{
+    color: #1DA1F2;
+}
+footer a:hover .fa-youtube{
+    color: #FF0000;
 }
