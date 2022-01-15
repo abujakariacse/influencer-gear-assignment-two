@@ -69,6 +69,10 @@ section{
     background-size:contain;
     width: 30%;
     background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+.banner-camera:hover{
+    transform: scale(1.1);
 }
 .top-container h1{ 
     font-size: 50px;
