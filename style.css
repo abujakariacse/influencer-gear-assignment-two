@@ -324,6 +324,9 @@ nav a{
     flex-wrap: wrap;
     align-content: center;
 }
+footer{
+    padding: 15px 10px;
+}
 }
 /*------------------------
 Mobile Responsive Part End 
