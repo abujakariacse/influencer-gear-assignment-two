@@ -258,7 +258,9 @@ Footer Section End
     For Mobile Devices 
 ----------------------*/
 
-/* Mobile Responsive Part Start */
+/*----------------------------
+  Mobile Responsive Part Start 
+------------------------------*/
 @media only screen and (max-width:688px) {
 body{
         margin: 0;
@@ -322,5 +324,7 @@ nav a{
     flex-wrap: wrap;
     align-content: center;
 }
-/* Mobile Responsive Part End */
-
+}
+/*------------------------
+Mobile Responsive Part End 
+---------------------------*/
