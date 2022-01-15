@@ -325,7 +325,8 @@ nav a{
     align-content: center;
 }
 footer{
-    padding: 15px 5px;
+    padding: 15px 0px;
+    margin: 0;
     width: 100%;
     text-align: center;
 }
@@ -333,3 +334,104 @@ footer{
 /*------------------------
 Mobile Responsive Part End 
 ---------------------------*/
+
+/*---------------------
+For Tablet Devices
+---------------------*/
+/*-------------------------------
+Tablet Responsive Part Start  
+-------------------------------*/
+@media only screen and (min-width:689px) and (max-width:991px) {
+    body{
+            margin: 0;
+            padding: 0;
+        }
+    section{ 
+        margin-bottom: 100px;
+
+        }
+    nav{
+        display: flex;
+        flex-direction: column;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    nav a{
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        margin-left: 5px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .navbar{
+        text-align: center;
+        padding: 0;
+    
+    }
+    .company-name a{
+        padding: 0;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .top-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        }
+    .top-container h1{
+        font-size: 52px;
+        
+    }
+    .half-width{
+        width: 80%;
+    }
+    #top-banner{
+        order: 1;
+    }
+    #banner-detail{
+        order: 2;
+    }
+    
+    
+    .partners{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        overflow: hidden;
+        grid-gap: 30px 30px;
+        padding: 0;
+        margin-left: 15px;
+        
+    }
+    #will-hide-on-tab{
+        display: none;
+    }
+    .product{
+        flex-direction: column;
+    }
+    .last-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        /* margin-top:50px; */
+    }
+    footer{
+        padding: 15px 0px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+/*-------------------------------
+    Tablet Responsive Part End  
+-------------------------------*/
