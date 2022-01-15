@@ -250,8 +250,15 @@ Footer Section End
 ------------------*/
 
 
-/* Responsive */
-/* For Mobile Devices */
+/*-----------------
+    Responsive 
+--------------------*/
+
+/*----------------------
+    For Mobile Devices 
+----------------------*/
+
+/* Mobile Responsive Part Start */
 @media only screen and (max-width:688px) {
 body{
         margin: 0;
@@ -305,6 +312,7 @@ nav a{
     width: 100%;
     grid-column-gap: 0;
     padding: 0;
+    margin-left: 25px;
 }
 .product{
     flex-direction: column;
@@ -314,3 +322,5 @@ nav a{
     flex-wrap: wrap;
     align-content: center;
 }
+/* Mobile Responsive Part End */
+
