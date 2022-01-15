@@ -183,11 +183,18 @@ Mid Container Start
     font-weight: 700;
     text-align:end;
     margin-top: 40px;
+    margin-right: 180px;
 
+}
+.more-product-link:hover a{
+    color: #1DA1F2;
+    transition: 0.3s;
+    
 }
 .more-product-link a{
     text-decoration: none;
     color: #E02C6DDE;
+  
 }
 /*------------------
 Mid Container End 
