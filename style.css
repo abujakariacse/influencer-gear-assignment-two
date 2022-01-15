@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-/* font-family: 'Inter', sans-serif; */
+
 body{
     margin-top: 20px;
     padding: 0;
@@ -51,39 +51,34 @@ Top Container Start
 section{
     margin-bottom: 100px;
 }
+.half-width{
+    width: 50%;
+    margin-left: 30px;
+ 
+}
 .top-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    
 }
-.flexible-box{
-    width: 40%;
-    margin-left: 100px;
+.top-container img{
+    width: 80%;
 }
-
-.flexible-box h1{
-    font-size: 52px;
-    color: #3A3A3A;
+.banner-camera{
+    background-image: url(images/Circle\ design.svg);
+    background-size:contain;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+.top-container h1{ 
+    font-size: 50px;
     font-weight: 700;
-    margin:0;
+    color:#0A0826;
 }
-.flexible-box p{
+.top-container p{
     font-size: 16px;
     font-weight: 600;
-    color: #3A3A3A;
-}
-.flexible-box img{
-    width: 60%;
-}
-#camera-box{
-    background-image: url(images/Circle\ design.svg);
-    background-repeat: no-repeat;
-    width: 70%;
-    position: relative;
-    left: 200px;
-   
+    color: #6C6C6C;
 }
 .link-button{
     background-color: #E02C6D;
@@ -173,7 +168,7 @@ Mid Container Start
 }
 .ratings{
     color: orange;
-    margin-right: 10px;
+    padding-right: 10px;
     font-size: 16px;
 }
 .product .detail p{
@@ -229,7 +224,7 @@ footer{
 footer a{
     text-decoration: none;
     color: white;
-    padding-right: 15px;
+    padding: 5px;
     font-size: 20px;
     transition: transform 0.5s;
 }
@@ -253,3 +248,69 @@ footer a:hover .fa-youtube{
 /*------------------
 Footer Section End 
 ------------------*/
+
+
+/* Responsive */
+/* For Mobile Devices */
+@media only screen and (max-width:688px) {
+body{
+        margin: 0;
+        padding: 0;
+    }
+nav{
+    display: block;
+    text-align: center;
+}
+nav a{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: 5px;
+}
+.navbar{
+    text-align: center;
+    padding: 0;
+
+}
+.company-name a{
+    padding: 0;
+}
+
+.top-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+.top-container h1{
+    font-size: 28px;
+}
+.half-width{
+    width: 80%;
+}
+#top-banner{
+    order: 1;
+}
+#banner-detail{
+    order: 2;
+}
+
+
+.partners{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.products{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    grid-column-gap: 0;
+    padding: 0;
+}
+.product{
+    flex-direction: column;
+}
+.last-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
